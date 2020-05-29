@@ -51,12 +51,12 @@ body {
   font-family: Impact, Haettenschweiler, Arial Bold, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  left: 750px;
+  left: 760px;
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
   text-transform: uppercase;
-  top: 200px;
+  top: 155px;
   width: 300px;
   word-wrap: break-word;
 }
@@ -66,13 +66,13 @@ body {
   font-family: Impact, Haettenschweiler, Arial Bold, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  left: 750px;
+  left: 740px;
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
   text-transform: uppercase;
-  top: 530px;
-  width: 300px;
+  top: 460px;
+  width: 350px;
   word-wrap: break-word;
 }
 
