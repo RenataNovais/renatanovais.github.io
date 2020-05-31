@@ -1,17 +1,15 @@
 .initial-section {
   text-align: center;
   background-color: whitesmoke;
-  margin: 10px auto;
+  margin: 10px;
   padding: 3px;
-  width: 70%;
 }
 
 .second-section {
   text-align: center;
   background-color: whitesmoke;
-  margin: 10px auto;
+  margin: 10px;
   padding: 5px;
-  width: 70%;
 }
 
 .button {
