@@ -1,3 +1,35 @@
+.initial-section {
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 10px auto;
+  padding: 3px;
+  width: 70%;
+}
+
+.second-section {
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 10px auto;
+  padding: 5px;
+  width: 70%;
+}
+
+.button {
+  background-color: gray;
+  border: 1px solid gray;
+  border-radius: 10%;
+  color: white;
+  font-weight: 700;
+  padding: 6px;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .color {
   border: 1px solid black;
   display: inline-block;
@@ -8,6 +40,7 @@
 
 .table {
   border-collapse: collapse;
+  margin-left: 10px;
 }
 
 .pixel {

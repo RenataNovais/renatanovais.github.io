@@ -1,5 +1,5 @@
 const generateBoard = document.getElementById('generate-board'); // table, onde serao inseridos tr e td;
-// const palette = document.getElementById('color-palette'); // seção que terá os pixels de selação de cor;
+const palette = document.getElementById('color-palette'); // seção que terá os pixels de selação de cor;
 let pixelUnit = document.querySelectorAll('.pixel');
 let color = 'black';
 const clearButton = document.getElementById('clear-board');
@@ -83,3 +83,40 @@ clearButton.addEventListener('click', function () {
     pixelUnit[i].style.backgroundColor = 'white';
   }
 });
+
+// adicionar nova cor na paleta
+function addNewRandom() {
+  let newColor = document.createElement('option');
+  newColor.className = "color";
+  newColor.style.backgroundColor = createColor();
+  document.getElementById('color-palette').appendChild(newColor);
+  document.querySelectorAll('.color').forEach( (element) => {
+    element.addEventListener('click', (event) => {
+      selectColor(event);
+    });
+  });
+}
+document.getElementById('add-color').addEventListener('click', addNewRandom);
+// permite que o usuário crie uma nova cor.
+function addNewColor() {
+  let red = document.getElementById('r').value;
+  let blue = document.getElementById('b').value;
+  let green = document.getElementById('g').value;
+  if (red != '' && blue != '' && green != '') {
+    let choiceColor = document.createElement('option');
+    choiceColor.className = "color";
+    choiceColor.style.backgroundColor = 'rgb(' + red + ', ' + blue + ', ' + green + ')'
+    document.getElementById('color-palette').appendChild(choiceColor);
+    document.querySelectorAll('.color').forEach( (element) => {
+      element.addEventListener('click', (event) => {
+        selectColor(event);
+      });
+    });
+    document.getElementById('r').value = '';
+    document.getElementById('b').value = ''; 
+    document.getElementById('g').value = '';
+  } else {
+    alert("Favor inserir o RGB da cor desejada.");
+  }
+}
+document.getElementById('new-color').addEventListener('click', addNewColor);
