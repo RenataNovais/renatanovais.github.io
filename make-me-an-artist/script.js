@@ -112,6 +112,9 @@ function addNewColor() {
         selectColor(event);
       });
     });
+    document.getElementById('r').value = '';
+    document.getElementById('b').value = ''; 
+    document.getElementById('g').value = '';
   } else {
     alert("Favor inserir o RGB da cor desejada.");
   }
