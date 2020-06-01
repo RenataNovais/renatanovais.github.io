@@ -8,6 +8,10 @@ body {
   padding: 10px;
 }
 
+.button-sec {
+  margin-left: 25px;
+}
+
 .mainTitle {
   font-family: monospace;
   margin: 30px 0 20px 30px;
@@ -70,4 +74,10 @@ li {
 
 .completed {
   text-decoration: line-through;
+}
+
+.sub-item {
+  list-style-type: square;
+  margin-right: 0;
+  margin-left: 1%;
 }
