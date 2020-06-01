@@ -10,21 +10,24 @@
     <!--Baby-Steps:
     1. criar um cabeçalho com titulo Minha Lista de Tarefas e com o paragrafo sobre funcionamento (id)-->
     <div class="list">
-    <header>
-      <h1 class="mainTitle">Minha Lista de Tarefas</h1>
-      <p id="funcionamento" class="subTitle">Crie aqui sua própria lista de tarefas!<br><br> Clique duas vezes em um item para marcá-lo como completo.<br> Utilize os botões de subir e descer para reordenar a lista.<br> Caso queira deletar algum item especifico, selecione-o e utilize o botão "x".</p>
-      <input id="texto-tarefa" class="textInput" type="text" alt="Digite aqui sua tarefa!">
-      <button id="criar-tarefa" class="createTask save-button">+</button>
-    </header>
-    <ol id="lista-tarefas">
-    </ol>
-    <button id="apaga-tudo" class="clear-button">Limpar Lista</button>
-    <button id="remover-finalizados" class="clean-concluded-button">Limpar Concluídos</button>
-    <button id="salvar-tarefas" class="save-button">Salvar</button>
-    <br><br>
-    <button id="remover-selecionado" class="clear-button">x</button>
-    <button id="mover-cima" class="symbol-move">&uarr;</button>
-    <button id="mover-baixo" class="symbol-move">&darr;</button>
+      <header>
+        <h1 class="mainTitle">Minha Lista de Tarefas</h1>
+        <p id="funcionamento" class="subTitle">Crie aqui sua própria lista de tarefas!<br><br> Para marcar ou desmarcar um item concluído, clique duas vezes sobre ele.<br> Utilize os botões de subir e descer para reordenar a lista.<br> Caso queira deletar algum item especifico, selecione-o e utilize o botão "x".</p>
+        <input id="texto-tarefa" class="textInput" type="text" alt="Digite aqui sua tarefa!">
+        <button id="criar-tarefa" class="createTask save-button">+</button>
+        <!--<button id="sub-tarefa" class="save-button">+ sub-task</button>-->
+      </header>
+      <ol id="lista-tarefas">
+      </ol>
+      <section class="button-sec">
+      <button id="apaga-tudo" class="clear-button">Limpar Lista</button>
+      <button id="remover-finalizados" class="clean-concluded-button">Limpar Concluídos</button>
+      <button id="salvar-tarefas" class="save-button">Salvar</button>
+      <br><br>
+      <button id="remover-selecionado" class="clear-button">x</button>
+      <button id="mover-cima" class="symbol-move">&uarr;</button>
+      <button id="mover-baixo" class="symbol-move">&darr;</button>
+      </section>
     </div>
   </body>
   <script type="text/javascript" src="script.js"></script>

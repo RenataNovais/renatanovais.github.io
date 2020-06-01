@@ -21,10 +21,10 @@ let createTask = document.getElementById('criar-tarefa');
 createTask.addEventListener('click', addTask);
 
 // função para selecionar o item da lista, e pintar o background de cinza.
-/*function selectItem(event) {
+function selectItem(event) {
   event.target.classList.toggle('selected');
-};*/
-function selectItem(e) {
+};
+/*function selectItem(e) {
   const itemSelected = e.target;
   const listTasks = document.querySelectorAll('#lista-tarefas li');
   for (let i = 0; i < listTasks.length; i += 1) {
@@ -33,7 +33,7 @@ function selectItem(e) {
     }
   }
   itemSelected.classList.add('selected');
-}
+}*/
 taskList.addEventListener('click', selectItem);
 
 // função para riscar os elementos concluidos
@@ -116,3 +116,20 @@ function moveDown() {
   }
 }
 document.getElementById('mover-baixo').addEventListener('click', moveDown);
+
+/*function addSubTask() {
+  if (selectedElements.length == 0) {
+    alert("Selecione uma tarefa para adicionar sub-tarefas.")
+  } else if (selectedElements.length > 1) {
+    alert("Selecione apenas uma tarefa")
+  } else {
+    let parentTaks = document.querySelectorAll('.selected')[0];
+    let childNewList = document.createElement('ul');
+    let childNewTask = document.createElement('li');
+    childNewTask.innerHTML = textInput.value;
+    childNewTask.classList.add('sub-item');
+    parentTaks.appendChild(childNewList);
+    childNewList.appendChild(childNewTask);
+  }
+}
+document.getElementById('sub-tarefa').addEventListener('click', addSubTask);*/
