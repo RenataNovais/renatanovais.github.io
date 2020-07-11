@@ -8,6 +8,8 @@
   * [Meme Generator](https://renatanovais.github.io/meme-generator/)
   * [Pixel Art](https://renatanovais.github.io/make-me-an-artist/)
   * [To-Do-List](https://renatanovais.github.io/to-do-list/)
+  * [Mistery Letter](https://renatanovais.github.io/mistery-letter/)
+  * [Guess the Color](https://renatanovais.github.io/color-guess/)
   * [Facebook Page](https://renatanovais.github.io/facebook/)
   * [Shopping Cart](https://renatanovais.github.io/shopping-cart/)
   
