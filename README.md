@@ -9,3 +9,5 @@
   * [Pixel Art](https://renatanovais.github.io/make-me-an-artist/pixel-art.html)
   * [To-Do-List](https://renatanovais.github.io/to-do-list/my-list.html)
   * [Facebook Page](https://renatanovais.github.io/facebook/index.html)
+  * [Shopping Cart](https://renatanovais.github.io/shopping-cart/index.html)
+  
