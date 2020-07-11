@@ -96,7 +96,7 @@ window.onload = function onload() {
   .then((dados) => {
     setTimeout(() => {
       document.getElementsByClassName('loading')[0].parentNode.removeChild(loading);
-    }, 3000);
+    }, 1000);
     dados.results.forEach(produto =>
     document.querySelector('.items').appendChild(
     createProductItemElement({ sku: produto.id, name: produto.title, image: produto.thumbnail })));
